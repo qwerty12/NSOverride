@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Detours">
+      <UniqueIdentifier>{50a551ae-7786-4c87-a9d3-015ee3db2207}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Detours\src\detver.h">
+      <Filter>_Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours\src\detours.h">
+      <Filter>_Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allocaandseh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\detours.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\modules.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\disasm.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\disolx64.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\disolarm64.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\disolia64.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\disolx86.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\image.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\uimports.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="Detours\src\creatwth.cpp">
+      <Filter>_Detours</Filter>
+    </ClCompile>
+    <ClCompile Include="DnsServerOverrider.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Detours\src\Makefile">
+      <Filter>_Detours</Filter>
+    </None>
+  </ItemGroup>
+</Project>
