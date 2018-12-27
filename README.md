@@ -1,3 +1,5 @@
+EDIT: Whelp, well this doesn't work any more in Windows 10. If the DNSCache service is disabled, then `GetAdaptersAddresses()` won't return DNS server addresses so I can't even hook that directly.
+
 # NSOverride
 Injectable DLL to override the DNS servers used by a Windows process
 
